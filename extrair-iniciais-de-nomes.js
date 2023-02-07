@@ -1,0 +1,1 @@
+=IF(ISBLANK(A2); ""; JOIN(".";ARRAYFORMULA(IF(LEN(TRIM(SPLIT(A2;" ")))>0; LEFT(TRIM(SPLIT(A2;" "));1);"")))&"")
