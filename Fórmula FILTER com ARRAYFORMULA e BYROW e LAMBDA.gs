@@ -1,4 +1,4 @@
-// Replicando a Fórmula FILTER com ARRAYFORMULA
+// Fórmula FILTER com ARRAYFORMULA e BYROW e LAMBDA.gs
 
 =ARRAYFORMULA(
     IF(ISBLANK($A$2:$A);"";
