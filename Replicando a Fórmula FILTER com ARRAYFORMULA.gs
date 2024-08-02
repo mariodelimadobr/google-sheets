@@ -1,4 +1,4 @@
-Replicar Fórmulas contendo FILTER usando ARRAYFORMULA
+Replicando a Fórmula FILTER com ARRAYFORMULA
 
 =ARRAYFORMULA(
     IF(ISBLANK($A$2:$A);"";
